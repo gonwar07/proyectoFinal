@@ -21,10 +21,11 @@ body {
 .grilla {
   display: grid; }
   .grilla .header {
-    grid-area: header; }
+    grid-area: header;
+    position: fixed;}
   .grilla main {
     grid-area: main;
-    margin-top: 50px;
+    margin-top: 190px;
     margin-bottom: 50px; }
   .grilla footer {
     grid-area: footer; }
@@ -109,7 +110,7 @@ footer {
 
 /* HISTORIA */
 .headHistoria, .bandas .headBandas {
-  background-color: #213840;
+  background-color: #011a39d4;
   box-shadow: 0px 0px 15px 6px black; }
 
 .footerHistoria, .bandas .footerBandas {
@@ -117,7 +118,7 @@ footer {
   box-shadow: 0px 0px 15px 6px black; }
 
 .historia {
-  background-image: linear-gradient(#C13C3C, #213840);
+  background-image: linear-gradient(#C13C3C, #011a39d4);
   color: #EFEFEF; }
 
 .mainHistoria {
@@ -245,7 +246,9 @@ footer {
   .grilla {
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: "header" "main" "footer"; }
+    grid-template-areas: "header"
+ "main"
+ "footer"; }
   .grilla .header {
     grid-area: header;
     padding-top: 30px; }
@@ -275,7 +278,9 @@ footer {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 0.3fr auto 2fr;
-    grid-template-areas: "titulo" "imagen" "texto"; }
+    grid-template-areas: "titulo"
+ "imagen"
+ "texto"; }
   #main #titulo {
     grid-area: titulo;
     padding: 5%; }
@@ -297,7 +302,8 @@ footer {
   .mainHistoria {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-areas: "imagen"  "texto"; }
+    grid-template-areas: "imagen" 
+ "texto"; }
   .mainHistoria .imagen {
     grid-area: imagen;
     display: flex;
@@ -321,7 +327,8 @@ footer {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "imagen" "lista";
+    grid-template-areas: "imagen"
+ "lista";
     margin-top: 50px;
     margin-bottom: 0; }
   .mainDisco #imagenDisco {
@@ -332,7 +339,8 @@ footer {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "titulo" "lista";
+    grid-template-areas: "titulo"
+ "lista";
     margin-right: 0px; }
   .lista {
     display: grid;
@@ -352,7 +360,8 @@ footer {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto;
-    grid-template-areas: "tapa texto" "redes texto";
+    grid-template-areas: "tapa texto"
+ "redes texto";
     padding: 20px;
     justify-items: center;
     margin: 20px 20px;
@@ -400,13 +409,16 @@ footer {
   .grilla {
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: "header" "main" "footer"; }
+    grid-template-areas: "header"
+ "main"
+ "footer"; }
   /* INDEX */
   #main {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 0.3fr auto;
-    grid-template-areas: "titulo titulo" "imagen texto";
+    grid-template-areas: "titulo titulo"
+ "imagen texto";
     align-content: center;
     justify-content: space-around;
     grid-column-gap: 20px;
@@ -462,7 +474,8 @@ footer {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "imagen" "lista";
+    grid-template-areas: "imagen"
+ "lista";
     margin-top: 50px; }
   .mainDisco #imagenDisco {
     grid-area: imagen; }
@@ -473,7 +486,8 @@ footer {
     grid-template-columns: 45% 45%;
     grid-template-rows: auto;
     justify-content: space-between;
-    grid-template-areas: "titulo titulo" "disco disco";
+    grid-template-areas: "titulo titulo"
+ "disco disco";
     margin-right: 40px; }
   .listaDisco .tituloDisco {
     grid-area: titulo;
@@ -492,7 +506,8 @@ footer {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto;
-    grid-template-areas: "tapa texto" "redes texto";
+    grid-template-areas: "tapa texto"
+ "redes texto";
     padding: 20px;
     justify-items: center;
     box-shadow: 0px 0px 10px black;
@@ -522,7 +537,8 @@ footer {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto 2fr;
-    grid-template-areas: "lista" "descripcion";
+    grid-template-areas: "lista"
+ "descripcion";
     margin-top: 50px; }
   .bandas-lista {
     grid-area: lista;
