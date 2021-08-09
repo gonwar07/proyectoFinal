@@ -158,7 +158,7 @@ footer {
 
 /* BANDAS */
 .bandas {
-  background-image: linear-gradient(#C13C3C, #213840);
+  background-image: linear-gradient(#C13C3C, #011a39d4);
   color: #EFEFEF; }
   .bandas #imagen-bandas {
     width: 100%; }
