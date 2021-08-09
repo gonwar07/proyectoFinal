@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de contacto para que dejes tu comentario">
+    <meta name="keywords" content="contacto, SPINETTA, comentarios, mensaje">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="headContacto container-fluid">
+        <!-- BARRA MENU -->
+            <nav class="row navbar navbar-expand-lg navbar-light">
+              <div class="divMenu col-12 col-lg-3 row">
+                <img class="col-5 col-sm-4 col-md-4 col-lg-12 row navbar-brand d-inline-block align-text-top" data-aos="zoom-in" src="img/logo.png" alt="logo con payaso del disco Almendra" width="100%" height="120">
+                <button class="botonMenu col-1 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div class="col-lg-9 collapse navbar-collapse justify-content-evenly fw-bold" id="navbarNav"
+                style="letter-spacing: 2px;">
+                <ul class="navbar-nav">
+                  <li class="nav-item me-5">
+                    <a class="nav-link animate__animated menuPrimario" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link animate__animated menuPrimario" href="biografia.html">Biografía</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link animate__animated menuPrimario" href="discografia.html">Discografía</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link animate__animated menuPrimario" href="bandas.html" tabindex="-1">Bandas</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link animate__animated menuPrimario" href="contacto.html" tabindex="-1">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+    </header>
+<!-- MAIN -->
+    <main>
+        <section class="mainContacto">
+            <img id="imgContacto" src="img/contacto.jpg" alt="imagen de Spinetta levantando el pulgar">
+ 
+        <!-- FORMULARIO -->
+            <form id="formulario" action="">
+                <input class="data" type="text" placeholder="Introduce tu nombre">
+                <input class="data" type="text" placeholder="Introduce tu apellido">
+                <div id="radio">
+                    <input type="radio"><p>M</p>
+                    <input type="radio"><p>F</p>
+                    <input type="radio"><p>Otro</p>
+                </div>
+                <textarea name="textarea" rows="10" cols="50" placeholder="Dejanos tu mensaje"></textarea>
+                <div class="botones">
+                    <input class="bot" type="submit" value="Enviar">
+                    <input class="bot" type="reset" value="Reiniciar formulario">
+                </div>
+            </form>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footerContacto">
+        <p>Todos los derechos reservados</p>
+        <ul>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+    </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
